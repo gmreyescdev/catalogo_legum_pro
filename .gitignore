@@ -1,0 +1,82 @@
+# Miscellaneous
+/.local/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# --- LegumPro: binarios y credenciales (no versionar) ---
+# Los APK de perfilado en artifacts/performance/ suman ~800 MB. GitHub rechaza
+# archivos de más de 100 MB, así que se versiona la evidencia (PNG, PDF, JSON,
+# TXT) pero nunca los binarios de compilación.
+*.apk
+*.aab
+*.ipa
+*.app
+*.dSYM/
+*.symbols
+
+# Firma y credenciales: se mantienen fuera del repositorio.
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.mobileprovision
+key.properties
+local.properties
+google-services.json
+GoogleService-Info.plist
+.env
+.env.*
+
+# Volcados crudos de entorno (dumpsys) con identificadores de dispositivo.
+# El resumen legible se conserva en artifacts/performance/environment.md.
+artifacts/**/*-environment.json
+
+# Salidas locales de herramientas
+/tool/**/out/
+*.tmp

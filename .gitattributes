@@ -1,0 +1,31 @@
+# Normalización de fin de línea: LF dentro del repositorio, sin importar el
+# sistema donde se clone. Evita que Git convierta LF a CRLF en Windows
+# (core.autocrlf=true) y genere diffs de ruido o rompa scripts.
+* text=auto eol=lf
+
+# Binarios: nunca normalizar ni tratar como texto.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.jar binary
+*.apk binary
+*.aab binary
+
+# Scripts de Windows: conservan CRLF.
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# artifacts/ es evidencia de entrega, no código fuente: no debe influir en las
+# estadísticas de lenguaje del repositorio.
+artifacts/** linguist-generated=true
+artifacts/** linguist-documentation=true

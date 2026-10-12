@@ -1,0 +1,86 @@
+[
+  {
+    "file": "grid-1-products.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": true
+  },
+  {
+    "file": "grid-3-products.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": true
+  },
+  {
+    "file": "grid-4-products.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": true
+  },
+  {
+    "file": "grid-5-products.pdf",
+    "pages": 2,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": true
+  },
+  {
+    "file": "grid-8-products.pdf",
+    "pages": 2,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": true
+  },
+  {
+    "file": "grid-9-products.pdf",
+    "pages": 3,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": true
+  },
+  {
+    "file": "LegumPro_Catalogo.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": false
+  },
+  {
+    "file": "LegumPro_Catalogo_Personalizado.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": false
+  },
+  {
+    "file": "LegumPro_Vista_Previa.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": false
+  },
+  {
+    "file": "long-summarized.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": false
+  },
+  {
+    "file": "maximum-prices.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": false
+  },
+  {
+    "file": "valid-product-photo.pdf",
+    "pages": 1,
+    "official_logo_all_pages": true,
+    "text_in_margins": true,
+    "grid_order_and_positions": false
+  }
+]

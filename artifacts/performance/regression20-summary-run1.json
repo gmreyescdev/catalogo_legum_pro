@@ -1,0 +1,154 @@
+{
+  "baseline": {
+    "detail": {
+      "normal.detail-usable": {
+        "n": 10,
+        "medianMs": 16.261499999999998,
+        "maxMs": 23.957
+      },
+      "normal.detail-return-usable": {
+        "n": 10,
+        "medianMs": 430.5555,
+        "maxMs": 440.92
+      },
+      "reduced-motion.detail-usable": {
+        "n": 10,
+        "medianMs": 16.93,
+        "maxMs": 22.334
+      },
+      "reduced-motion.detail-return-usable": {
+        "n": 10,
+        "medianMs": 427.5595,
+        "maxMs": 442.31
+      }
+    },
+    "traversals": [
+      {
+        "kind": "full-F20-traversal",
+        "label": "light-normal",
+        "seenCount": 18,
+        "expectedCount": 18,
+        "missing": [],
+        "query": "",
+        "textScale16": 16.0,
+        "brightness": "light",
+        "disableAnimations": false,
+        "rssBytes": 267911168,
+        "imageCacheBytes": 96000000,
+        "liveImages": 3,
+        "errorsSoFar": 0,
+        "variant": "baseline20"
+      },
+      {
+        "kind": "full-F20-traversal",
+        "label": "dark-text1.6-reducedMotion",
+        "seenCount": 18,
+        "expectedCount": 18,
+        "missing": [],
+        "query": "",
+        "textScale16": 25.6,
+        "brightness": "dark",
+        "disableAnimations": true,
+        "rssBytes": 297226240,
+        "imageCacheBytes": 96000000,
+        "liveImages": 0,
+        "errorsSoFar": 0,
+        "variant": "baseline20"
+      }
+    ],
+    "adminCycles": 20,
+    "failures": [],
+    "functional": [
+      {
+        "kind": "functional-summary",
+        "errors": [],
+        "limits": [
+          "Synthetic auth verifies UI protection, not secure storage/PIN security",
+          "Programmatic callback navigation, not physical hit testing or system-back gestures",
+          "Reduced movement inherited MediaQuery only; system setting and route-frame comparison separate",
+          "Full traversal widget visitation includes lazy cache extent, not screenshot proof of every product",
+          "Complementary resource checks, no before/after performance claims"
+        ],
+        "variant": "baseline20"
+      }
+    ]
+  },
+  "candidate": {
+    "detail": {
+      "normal.detail-usable": {
+        "n": 10,
+        "medianMs": 18.0785,
+        "maxMs": 23.805,
+        "medianChangePercent": 11.173630968852821
+      },
+      "normal.detail-return-usable": {
+        "n": 10,
+        "medianMs": 432.92,
+        "maxMs": 444.352,
+        "medianChangePercent": 0.5491742644095909
+      },
+      "reduced-motion.detail-usable": {
+        "n": 10,
+        "medianMs": 17.6495,
+        "maxMs": 23.599,
+        "medianChangePercent": 4.249852333136439
+      },
+      "reduced-motion.detail-return-usable": {
+        "n": 10,
+        "medianMs": 429.6865,
+        "maxMs": 441.812,
+        "medianChangePercent": 0.49747462049141156
+      }
+    },
+    "traversals": [
+      {
+        "kind": "full-F20-traversal",
+        "label": "light-normal",
+        "seenCount": 18,
+        "expectedCount": 18,
+        "missing": [],
+        "query": "",
+        "textScale16": 16.0,
+        "brightness": "light",
+        "disableAnimations": false,
+        "rssBytes": 266997760,
+        "imageCacheBytes": 59429520,
+        "liveImages": 3,
+        "errorsSoFar": 0,
+        "variant": "candidate20"
+      },
+      {
+        "kind": "full-F20-traversal",
+        "label": "dark-text1.6-reducedMotion",
+        "seenCount": 18,
+        "expectedCount": 18,
+        "missing": [],
+        "query": "",
+        "textScale16": 25.6,
+        "brightness": "dark",
+        "disableAnimations": true,
+        "rssBytes": 288944128,
+        "imageCacheBytes": 88951440,
+        "liveImages": 0,
+        "errorsSoFar": 0,
+        "variant": "candidate20"
+      }
+    ],
+    "adminCycles": 20,
+    "failures": [],
+    "functional": [
+      {
+        "kind": "functional-summary",
+        "errors": [],
+        "limits": [
+          "Synthetic auth verifies UI protection, not secure storage/PIN security",
+          "Programmatic callback navigation, not physical hit testing or system-back gestures",
+          "Reduced movement inherited MediaQuery only; system setting and route-frame comparison separate",
+          "Full traversal widget visitation includes lazy cache extent, not screenshot proof of every product",
+          "Complementary resource checks, no before/after performance claims"
+        ],
+        "variant": "candidate20"
+      }
+    ]
+  }
+}

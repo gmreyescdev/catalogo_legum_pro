@@ -1,0 +1,32 @@
+[
+  {
+    "file": "LegumPro_Catalogo.pdf",
+    "pages": 2,
+    "official_logo_each_page": true,
+    "kg_present": true
+  },
+  {
+    "file": "LegumPro_Catalogo_Personalizado.pdf",
+    "pages": 2,
+    "official_logo_each_page": true,
+    "kg_present": true
+  },
+  {
+    "file": "LegumPro_Vista_Previa.pdf",
+    "pages": 2,
+    "official_logo_each_page": true,
+    "kg_present": true
+  },
+  {
+    "file": "long-multipage.pdf",
+    "pages": 16,
+    "official_logo_each_page": true,
+    "kg_present": true
+  },
+  {
+    "file": "valid-product-photo.pdf",
+    "pages": 1,
+    "official_logo_each_page": true,
+    "kg_present": true
+  }
+]
